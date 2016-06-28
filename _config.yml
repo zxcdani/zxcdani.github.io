@@ -8,11 +8,11 @@ facebook: http://www.facebook.com
 linkedin: https://ph.linkedin.com/in/daniona
 email: ona.dani.a@gmail.com
 location: Davao City
-disqus: diqus-username
+disqus: apinoygeek
 
 ##Make sure to edit the above fields, especially for disqus.
 
-highlighter: pygments
+highlighter: rouge
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
