@@ -1,20 +1,18 @@
+---
+---
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
+<html lang="en">
+  <head>
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+  </head>
+  <body>
+    <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Dani A. Ona </div>
+    <div id="wrapper">
+      {% include navigation.html %}
+      <div class="container">
         {{ content }}
       </div>
     </div>
-
-    {% include footer.html %}
-
+    {% include scripts.html %}
   </body>
-
 </html>
