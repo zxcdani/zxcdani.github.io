@@ -579,7 +579,7 @@ time
 .user-card p
 {
   color:#c4c4c4;
-  font-size:small
+  font-size:small;
 }
 
 .card
@@ -791,6 +791,11 @@ time
 .about-wrapper{
   margin-bottom: 3%;
   padding-bottom: 5%;
+}
+
+.align-left
+{
+  text-align: left;
 }
 
 .experience-job
