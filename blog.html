@@ -1,11 +1,11 @@
 --- 
 title: A Pinoy Geek's Blog 
 ---
-<div class="container">
+<div class="container-fluid">
     {% for post in site.posts limit: 10 %}
-    <div id="article">
+    <div class="card-background blog-roll">
         <a href="{{ site.baseurl }}{{ post.url }}">
-            <div class="article-title">{{ post.title }}</div>
+            <div class="title">{{ post.title }}</div>
         </a>
         <p class="meta">
             <small>
@@ -13,7 +13,7 @@ title: A Pinoy Geek's Blog
             </small>
         </p>
         <hr/>
-        <div class="post">
+        <div class="body">
             {{ post.content }}
         </div>
     </div>

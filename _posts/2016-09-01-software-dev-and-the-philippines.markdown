@@ -14,7 +14,7 @@ specifically, **Software Development**.
 Now, how exactly can Software Development help hasten government transactions? I'll summarize it for you lot,
 and make it as simple as possible.
 
-### Strengthening Govt Transaction through I.T. Enabled Services
+# Strengthening Govt Transaction through I.T. Enabled Services
 
 > Software Development, is (as [Wikipedia](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwj6l9OqlOzOAhUClZQKHbLPCZcQFggeMAE&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSoftware_development&usg=AFQjCNHQbHbuaKdAGxtGFhHojHymtuLpUg&sig2=ZOjgRnchVsci6lc6lBpPCg&bvm=bv.131286987,d.dGo) said) the process of
 computer programming, documenting, testing, and bug fixing involved in creating and maintaining applications and
@@ -41,7 +41,7 @@ with the old manual way.
 Since Philippines now have the Department of Information Communications Technology, the government can setup
 a governing body to develop such apps.
 
-### Software Development Committee
+# Software Development Committee
 
 Forming a single body to govern the development will result to unified applications in terms of - design,
 coding patterns, source code management and more. The Software Development Committee will be the development team for
@@ -56,7 +56,7 @@ The Committee should be divided by team for each government agency, which handle
 communicate with the agency's developers, work together, instruct and lead. Then, a team should be made to manage 
 the source code and all code changes.
 
-### Projects
+# Projects
 
 I'll be short here but I have prepared a detailed document for you. Here are some projects the SDC should prioritize:
 
