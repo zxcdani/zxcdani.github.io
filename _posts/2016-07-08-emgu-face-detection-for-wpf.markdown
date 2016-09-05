@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Emgu CV Face Detection App for WPF"
-categories: projects
 ---
 
 Lately, I've been playing around with Emgu CV's face detection features and it works really well. As I am fond
