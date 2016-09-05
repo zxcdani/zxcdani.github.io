@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Software Development and The Philippines"
-categories: editorials
 ---
 
 Our country, the Philippines, is notoriously famous when it comes to how slow government transactions could take,

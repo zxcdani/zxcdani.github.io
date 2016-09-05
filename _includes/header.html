@@ -1,13 +1,24 @@
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="description" content="{{ site.description }}">
-<!--<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">-->
-<!--<link href="{{ site.baseurl }}/css/hc.css" rel="stylesheet">-->
-<link href="{{ site.baseurl }}/css/zxcdani.css" rel="stylesheet">
-<!--<link href="{{ site.baseurl }}/css/font-awesome.min.css" rel="stylesheet">-->
+<!--<link href="{{ site.baseurl }}/css/zxcdani.css" rel="stylesheet">-->
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" />
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif] d-->
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+
+<script type="application/ld+json">
+    {% include metadata.json %}
+</script>
+
+<style amp-custom>
+    {% capture include_to_scssify %}
+      {% include blog_styles.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+</style>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
