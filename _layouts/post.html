@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="card-background blog-post">
+<div class="blog-post">
   <div class="title">{{ page.title }}</div>
   <p class="meta">
     <small>
@@ -12,6 +12,8 @@ layout: default
     {{ content }}
   </div>
 </div>
-{% include share.html %}
-{% include pager.html %}
-{% include comment.html %}
+<div class="container-blog">
+  {% include share.html %}
+  {% include pager.html %}
+  {% include comment.html %}
+</div>
