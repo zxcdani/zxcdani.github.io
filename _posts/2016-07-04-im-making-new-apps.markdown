@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "I'm Making Apps, Hurray!"
-date:   2016-07-04 04:54:00 +0800
-categories: projects
 ---
 Hello, this is basically my first post. The previous one's a jekyll default, I didn't delete it because it's awesome.
 
