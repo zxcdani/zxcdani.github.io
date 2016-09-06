@@ -1,7 +1,7 @@
 --- 
 title: A Pinoy Geek's Blog 
 ---
-<div>
+<div class="card-container">
     {% for post in site.posts limit: 10 %}
     <div class="card-background blog-roll">
         <a href="{{ site.baseurl }}{{ post.url }}">
@@ -9,13 +9,14 @@ title: A Pinoy Geek's Blog
         </a>
         <p class="meta">
             <small>
-                &nbsp;<i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}
+                &nbsp;<i class="material-icons">access_time</i> {{ post.date | date_to_string}}
             </small>
         </p>
         <hr/>
         <div class="body">
-            {{ post.content }}
+            {{ post.content | truncate: 500 }}
         </div>
+        <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
     </div>
     {% endfor %}
 </div>

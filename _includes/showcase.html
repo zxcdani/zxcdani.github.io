@@ -1,14 +1,13 @@
-</div>
+<div>
     <style>
         .showcase-wrapper {background-image: url("{{ site.baseurl }}/images/showcase.jpg");}
     </style>
     <div class="showcase-wrapper sticky">
       <div class="showcase-text">
           {% for post in site.posts limit: 1 %}
-            <span class="badge lazy"><smaller>BASICALLY THE RECENT ONE</smaller></span><br>
-            {{ post.title }}<br><a href="{{ site.baseurl }}{{ post.url }}">
-                <button type="button" class="btn btn-default showcase-button">Read More</button></a>
+            <span class="badge"><smaller>RECENT POST</smaller></span><br>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           {% endfor %}
       </div>
     </div>
-<div class="container">
+</div>

@@ -1,8 +1,11 @@
-<div class="navbar navbar-default" role="navigation">
+<div class="navigation-bar">
   <div class="navbar-container">
-    <div class="navbar-header">
-      <a href="{{ site.baseurl }}/"><p class="navbar-brand">{{ site.name }}</p></a>
-    </div>
+    <a href="{{ site.baseurl }}/"><p class="navbar-brand">{{ site.name }}</p></a>
+    <a class="page-link" href="{{ site.baseurl }}/about.html">About</a> •
+    <a class="page-link" href="{{ site.baseurl }}/blog.html">Blog</a> •
+    <a class="page-link" href="{{ site.baseurl }}/projects.html">Projects</a> •
+    <a class="page-link" href="{{ site.baseurl }}/interests.html">Interests</a> •
+    <a class="page-link" href="{{ site.baseurl }}/list.html">Archive</a>
   </div>
 </div>
 
@@ -19,17 +22,15 @@
       </a>
       <h3>{{ site.description }}</h3>
     </li>
-    <hr />
     <li><a href="{{ site.baseurl }}/about.html">About</a></li>
     <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
     <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
     <li><a href="{{ site.baseurl }}/interests.html">Interests</a></li>
     <li><a href="{{ site.baseurl }}/list.html">Archive</a></li>
-    <hr />
     <div class="social-wrapper">
-      <li> <a href="{{ site.twitter }}"><i class="fa fa-twitter-square"></i> twitter</a></li>
-      <li> <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
-      <li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> github</a> </li>
+      <li> <a href="{{ site.twitter }}"><i class="material-icons">person</i> twitter</a></li>
+      <li> <a href="{{ site.linkedin }}"><i class="material-icons">work</i> linkedin</a> </li>
+      <li> <a href="{{ site.github }}"><i class="material-icons">code</i> github</a> </li>
     </div>
   </ul>
 </div>
